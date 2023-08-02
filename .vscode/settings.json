@@ -1,5 +1,37 @@
 {
-    "cSpell.words": [
-        "mern"
-    ]
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.iconTheme": "vscode-great-icons",
+	"explorer.compactFolders": false,
+	"eslint.format.enable": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.autoSave": "afterDelay",
+    "eslint.codeActionsOnSave.rules": null,
+    "workbench.startupEditor": "none",
+    "cSpell.userWords": [
+        "xmark"
+    ],
+    "window.zoomLevel": 1,
+    "[html]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "editor.formatOnSave": true,
+    "git.openRepositoryInParentFolders": "never",
+    "mongodbLanguageServer.trace.server": {
+        
+    },
+    "explorer.confirmDelete": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.singleQuote": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    },
 }
