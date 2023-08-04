@@ -11,12 +11,13 @@ const Header = () => {
 
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const {logoutApiCall} = useLogoutMutation();
+    const [logoutApiCall] = useLogoutMutation();
+
     const logoutHandler = async () => {
         try {
             await logoutApiCall().unwrap();
             dispatch(logout());
-            navigate('/');
+            navigate('/login');
         } catch (error) {
             console.error(error);
         }

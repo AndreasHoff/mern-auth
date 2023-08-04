@@ -1,6 +1,6 @@
 {
     "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.wordWrap": "on",
     "liveServer.settings.donotShowInfoMsg": true,
     "explorer.confirmDragAndDrop": false,
